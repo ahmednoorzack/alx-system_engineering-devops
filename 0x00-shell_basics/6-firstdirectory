@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Create the directory
+mkdir /tmp/my_first_directory/
+
+# Verify that the directory was created
+if [ -d "/tmp/my_first_directory/" ]; then
+  echo "/tmp/my_first_directory/: directory"
+else
+  echo "Failed to create directory."
+fi
+
