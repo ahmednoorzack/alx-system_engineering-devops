@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in ./*.html; do [ ! -f "$(dirname "$(pwd)")/$(basename "$file")" ] || [ "$file" -nt "$(dirname "$(pwd)")/$(basename "$file")" ] && cp "$file" "$(dirname "$(pwd)")"; done
+cp *.html ../
