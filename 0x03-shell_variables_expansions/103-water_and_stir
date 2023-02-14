@@ -1,2 +1,2 @@
 #!/bin/bash
-dwkaesjdlkghand;dzoih/lhb nab'dz/lof;lc
+echo "The sum of WATER (${WATER}) and STIR (${STIR}) is $(echo "ibase=water; ${WATER}" | bc) + $(echo "ibase=stir; ${STIR}" | bc) | bc | xargs echo "obase=bestchol; " | bc) in base bestchol."
